@@ -14,11 +14,11 @@ public class DefaultController {
     @ResponseBody
     @RequestMapping("/test")
     public String test() {
-        return "test123";
+        return "test";
     }
 
     @ResponseBody // return JSON type!! not a view!!!
-    @RequestMapping("test2")
+    @RequestMapping("test111")
     public Map<String, Object> test2(){
         Map<String, Object> map = new HashMap<> ();
         map.put("key", "value");
